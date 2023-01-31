@@ -1,0 +1,336 @@
+/**Criar um arquivo reset css para limpar tudo que o navegador cria */
+/**Importando font no google fonts,incluir link no html e css */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;    
+}
+.titulo-salao{
+    display: flex;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/**Posicionamento menu cabeçalho**/
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+    
+}
+/*Transorma texto letra maiuscula**/
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+/*mouse**/
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+/*Centraliza os itens produtos**/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/*inline-block os itens ficam um do lado do outro*/
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+/*mouse**/
+.produtos li:hover{
+    border-color:#c78c19 ;
+    
+}
+/*click mouse**/
+.produtos li:active{
+    border-color: #088C19;
+}
+/*click mouse muda o tamanho da fonte*/
+.produtos li:hover h2{
+    font-size: 34px;
+
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto_descricao{
+    font-size: 18px;
+    
+}
+.produto_preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-image: url("/imagem/bg.jpg");
+    padding: 40px 0;
+
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 ;
+}
+/**centraliza conteudo*/
+
+/**espaçamento entre formulario e roda pe*/
+form{
+    margin: 40px 0;
+}
+/**quebrando a estrutura formulario*/
+form label , form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+/**para todos os inputs e textarea queremos essa informação*/
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+/**espaço entre borda e conteudo*/
+    padding: 10px 25px;
+/**ocupa 50% pagina*/
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+/**aumentar proporcionalmente a escala de determinado elemento ou rotacioná-lo**/
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background:darkorange;
+    /*transform: rotate(70deg) scale(1.2);*/
+    transform: scale(1.2);
+}
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+/**css da pagina inicial***/
+.banner{
+    width: 100%;
+
+}
+/**clear limpa o float utilizado impedindo alterar os espaçamentos criados no texto*/
+/**.titulo-principal::first-letter muda a primeira letra da palavra, first-line muda a primeira linha*/
+/**rgba cria opacidade nas cores*/
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    /*text-shadow: 2px 2px #ff0000;*/
+    /*color: rgba(0,0,0,0.3);*/
+
+}
+
+.principal{
+    padding: 3em 0; 
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+/**float deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele**/
+/**magin ref ao texto da imagem**/
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+/***efeito gradiente, além do degradê linear(linear-gradient) temos ainda a opção radial(radial-gradient), que organiza a transição de cores de maneira circular.***/
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+    
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+    
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens{
+    line-height: 1.5;
+}
+/**pega o primeiro item da lista, last-child marca ultimo lista,nth-child(2n) marca posiçao pares**/
+.itens:first-child{
+    font-weight: bold;
+}
+/**icone atraves do unicode**/
+.itens:before {
+    content: "★"
+}
+.imagem-beneficios{
+    width: 59%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    border: 1px solid black;
+}
+/*Efeito imagem*/
+.imagem-beneficios:hover{
+    opacity: 0.3;
+}
+/****centralizando o video*****/
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+/** estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse**/
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    .produtos {
+        width: 100%;
+      }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .principal p {
+        margin: 0px 10px 1em;
+      }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+
+        margin: 10px auto;
+    }
+
+    .itens {
+        padding: 0px 0px 0px 15px;
+      }
+
+
+    /* cabeçalho navegador */
+    .navegacao {
+         display: flex; 
+         justify-content: space-between;  
+         margin: 0 9px 0 -43px;  
+    }
+   
+
+    /* colocando container produtos um em baixo do outro */
+    /* .produtos li{
+        display: flex;
+        flex-direction: column;
+        margin: 36px;
+           
+    } */
+
+    .produtos li {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+      }
+
+
+       /* Contatos ======== */
+    form {
+        margin: 40px 10px;
+      }
+    
+      /* Table ============= */
+      table {
+        margin: 20px 0 40px 10px;
+      }
+    
+}
+
