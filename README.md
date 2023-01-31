@@ -1,7 +1,7 @@
 <h1 align="center"> Salão Safira </h1>
 
 <p align="center">
-    <img width="50%" src="https://user-images.githubusercontent.com/102911341/215807338-d2aff54b-b801-496e-ac05-86adc69b90b2.png">
+    <img width="600" src="https://user-images.githubusercontent.com/102911341/215807338-d2aff54b-b801-496e-ac05-86adc69b90b2.png">
 
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 - [Acesso ao projeto](#acesso-ao-projeto)
 
-- [Cursos Alura ](#Cursos-administrados-pela-Alura)
+- [Cursos Alura ](#Curso-administrado-pela-Alura)
 
 ## Descrição do projeto 
 
@@ -38,7 +38,7 @@ Aprendemos sobre como marcar esses elementos usando identificadores e classes. P
 No CSS, vimos como marcar com uma tag, como marcar com identificador, como marcar com uma classe. E abordamos os detalhes principais do CSS, todas as questões das dimensões, como a largura, altura, padding, a margem. Abordamos a criação de um fundo colorido ou de uma cor no elemento. Mexemos ainda no alinhamento dos elementos, no estilo da fonte.
 
 O resultado disso foi a página da Barbearia Alura, segue o link: https://Barbearia-Alura.suellensouza.repl.co.
-Com base nos estudos criei o Salão Safira, segue o link:
+Com base nos estudos criei o Salão Safira, segue o link: https://salao-safira.suellensouza.repl.co
 
 Curso HTML5 E CSS3 fornecido pela Alura ministrado pelo professor Pedro Martins
 
@@ -88,7 +88,9 @@ Curso HTML5 E CSS3 fornecido pela Alura ministrado pelo professor Pedro Martins
 
 <a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html" width="40" height="40"/> </a> 
 
-<a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/> </a> <a href="#" target="_blank"> <img src="https://camo.githubusercontent.com/ee5225ba7c4338f1a1c10121ec32c396e1a4a2f5b0b58b6afd6d5c56ff5d6196/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2d776f72646d61726b2e737667" alt="firebase" width="40" height="40"/> </a>
+<a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/> </a> 
+
+<a href="#" target="_blank"> <img src="https://camo.githubusercontent.com/ee5225ba7c4338f1a1c10121ec32c396e1a4a2f5b0b58b6afd6d5c56ff5d6196/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2d776f72646d61726b2e737667" alt="firebase" width="40" height="40"/> </a>
 ###
 
 ## Acesso ao projeto
@@ -96,7 +98,7 @@ Curso HTML5 E CSS3 fornecido pela Alura ministrado pelo professor Pedro Martins
 Você pode [acessar o link do projeto do instrutor Pedro Martins](https://Barbearia-Alura.suellensouza.repl.co.) e  [acessar o link meu projeto com base ao do instrutor]().
 
 
-## Cursos administrados pela Alura
+## Curso administrado pela Alura
 
  [Alura](https://www.alura.com.br/).
 
