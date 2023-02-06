@@ -49,6 +49,7 @@ nav a:hover{
     text-decoration: underline;
 
 }
+
 /*Centraliza os itens produtos**/
 .produtos{
     width: 940px;
@@ -282,10 +283,11 @@ td,th{
 
         width: 80%;
         margin: 0px auto;
+       
     }
 
     .principal p {
-        margin: 0px 10px 1em;
+        margin: 28px 10px 1em;
       }
 
     .lista-beneficios, .imagem-beneficios {
